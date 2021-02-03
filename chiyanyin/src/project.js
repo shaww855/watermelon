@@ -1527,11 +1527,11 @@ window.__require = function e(t, n, o) {
             t.prototype.update = function(e) {}
             ,
             t.prototype.adsButtonFunc2 = function() {
-                window.location.href = "https://www.acfun.cn/u/13722552"
+                window.location.href = "https://www.acfun.cn/u/4425861"
             }
             ,
             t.prototype.bannerButtonFunc = function() {
-                window.location.href = "https://www.acfun.cn/u/13722552"
+                window.location.href = "https://www.acfun.cn/u/4425861"
             }
             ,
             t.prototype.ShowFailedUi = function(e, t) {
@@ -3033,7 +3033,7 @@ window.__require = function e(t, n, o) {
             }
             ,
             t.prototype.adsButtonFunc = function() {
-                window.location.href = "http://www.acfun.cn/u/13722552"
+                window.location.href = "http://www.acfun.cn/u/4425861"
             }
             ,
             t.prototype.TestPasslevel = function() {
