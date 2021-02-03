@@ -4,12 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>合成大西瓜修改版</title>
+  <style>
+    .list{
+      padding: 20px;
+      padding: 20px;
+      text-align: center;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    .list div{
+      border-width: 3px;
+      border-style: solid;
+      border-radius: 50px;
+      padding: 6px;
+      margin-bottom: 16px;
+      display: block;
+    }
+    .anlisi{
+      border-color: #483f3a;
+      color: #483f3a;
+    }
+    .chiyanyin{
+      border-color: #cc8298;
+      color: #cc8298;
+    }
+    .taoyeshuo{
+      border-color: #cb4c3b;
+      color: #cb4c3b;
+    }
+  </style>
 </head>
 <body>
-  <ul>
-    <li><a href="/anlisi/">暗莉斯</a></li>
-    <li><a href="/taoyeshuo/">桃夜朔</a></li>
-    <li><a href="/chiyanyin/">竾颜音</a></li>
-  </ul>
+  <div class="list">
+    <div class="anlisi" onclick="openPage('anlisi')">暗莉斯</div>
+    <div class="chiyanyin" onclick="openPage('chiyanyin')">竾颜音</div>
+    <div class="taoyeshuo" onclick="openPage('taoyeshuo')">桃夜朔</div>
+  </div>
+  <script>
+    function openPage(str){
+      switch (str) {
+        case 'anlisi':
+          location.href='/anlisi'
+          break;
+        case 'chiyanyin':
+          location.href='/chiyanyin'
+          break;
+        case 'taoyeshuo':
+          location.href='/taoyeshuo'
+          break;
+      
+        default:
+          break;
+      }
+    }
+  </script>
 </body>
 </html>
