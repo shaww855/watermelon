@@ -1578,7 +1578,7 @@ window.__require = function e(t, n, o) {
                 this.canClick = !1,
                 this.moreGameBtn.runAction(cc.sequence(cc.scaleTo(.1, 1.1), cc.scaleTo(.1, 1))),
                 this.scheduleOnce(function() {
-                    window.location.href = "http://dxg.qwas.top/"
+                    location.reload()
                 }, .15))
             }
             ,
